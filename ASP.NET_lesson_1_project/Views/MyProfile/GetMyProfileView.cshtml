@@ -1,0 +1,10 @@
+﻿@model MyProfile
+<h1>Resume</h1>
+<p>First name: @Model.FirstName</p>
+<p>Last name: @Model.LastName</p>
+<p>Date of Birth: @Model.DateOfBirth.ToString("dd/MM/yyyy")</p>
+<p>Age: @Model.Age</p>
+<p>Frontend: @string.Join(", ", Model.Frontend)</p>
+<p>Backend: @string.Join(", ", Model.Backend)</p>
+<p>Frameworks: @string.Join(", ", Model.Frameworks)</p>
+
